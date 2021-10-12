@@ -1,26 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-  
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reviews || Majey</title>
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    
-    <h1>désigner un délégué</h1>
-    <select name="des" id="des">
- 
-        <option value="12">d12</option>
-      
-    </select>
-    <button id="btnLancer">Lancer</button>
-    <p id="message"></p>
-    <div id="listResultats"></div>
+    <main>
+        <section class="container">
+            <div class="title">
+                <h2>Délégué de la semaine</h2>
+                <div class="underline"></div>
+            </div>
 
-  <script type="text/javascript" src="script.js"></script>
+            <article class="review">
 
+
+        <div class="information">
+                  
+                <div class="apprenant"> 
+                     <div class="img-container ">
+                        <img src="person-1.jpeg" id="person-img">
+
+
+                    </div>
+
+                    <div>
+                        <h4 id="author"></h4>
+
+                    </div>
+                </div>
+                <div class="apprenant">
+                    <div class="img-container ">
+                        <img src="person-1.jpeg" id="person2-img">
+
+
+                    </div>
+              
+                    <div>
+                        <h4 id="author2"></h4>
+
+                    </div> 
+                 </div>
+
+        </div>
+                <div class="button-container">
+                    <button class="prev-btn">
+
+                    </button>
+                    <button class="next-btn">
+
+                    </button>
+
+                    <br />
+                    <br />
+
+                    <div>
+                        <button class="random-btn">Désigner</button>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <!-- javascript -->
+    <script src="app.js"></script>
 </body>
+
 </html>
