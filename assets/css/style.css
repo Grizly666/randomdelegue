@@ -107,3 +107,9 @@ main {
 	color: hsl(205, 86%, 17%);
 	outline: none;
 }
+
+img {
+	width: 256px;
+	height: 256px;
+	border-radius: 50%;
+}

@@ -37,7 +37,7 @@ const learners = [
 	},
 	{
 		name: 'Nelson Sanchez',
-		img: './assets/img/img11.png',
+		img: './assets/img/nelson sanchez.png',
 	},
 	{
 		name: 'Sébastien Delansay',
